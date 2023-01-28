@@ -1,0 +1,7 @@
+steps :
+
+1. pip3 installl -r requirements.txt
+
+2. python3 create_tables.py
+
+3. python3 app.py
