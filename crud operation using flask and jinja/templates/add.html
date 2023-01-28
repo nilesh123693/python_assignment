@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Add student</title>
+    <style>
+        .container {
+          width: 100%;
+          text-align: center;
+        }
+        .container form {
+           margin : 100px;
+           margin-left: 500px
+        }
+        .container table tr td input{
+           margin:10px
+        }
+        .container table tr td{
+           font-size: 20px;
+           font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+     <div class = "container">
+     <h1>Add a New Student</h1>
+     <form action = "/savedetails" method="post">
+    <table>
+        <tr><td>Roll No</td><td><input type="text" name="rollno", required></td></tr>
+        <tr><td>Name</td><td><input type="text" name="name" required></td></tr>
+        <tr><td>Email</td><td><input type="email" name="email" required></td></tr>
+        <tr><td>clg name</td><td><input type="text" name="clg" required></td></tr>
+        <tr><td>Fees</td><td><input type="text" name="fees" required></td></tr>
+        <tr><td>click on submit</td><td><input type="submit" value="Submit"></td></tr>
+    </table>
+    </form>
+
+         </div>
+</body>
+</html>
